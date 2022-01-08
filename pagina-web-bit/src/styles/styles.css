@@ -1,0 +1,108 @@
+.header {
+  background-color: rgb(220, 231, 231);
+}
+.footer {
+  border: 5px solid;
+  margin-top: 246px;
+}
+body {
+  margin: 0px;
+}
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  box-shadow: 1px 1px gray;
+}
+
+.navbar > li {
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  height: 70px;
+}
+
+.button {
+  border: 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+.button:hover {
+  cursor: pointer;
+  transition: 1.1;
+}
+
+.mainButton {
+  background-color: aqua;
+  color: white;
+}
+
+.mainButton:hover {
+  box-shadow: 5px 5px pink;
+  transition: 0.8s;
+}
+.ButtonLogin {
+  background-color: aqua;
+  color: white;
+}
+
+.ButtonLogin:hover {
+  box-shadow: 5px 5px pink;
+  transition: 0.8s;
+}
+
+.contenido {
+  padding: 100px;
+  margin: 100px;
+}
+
+.ContenedorImagen {
+  width: 400px;
+  height: 350px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.ContenedorImagen:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.ContenedorImagen > img {
+  object-fit: cover;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.contenedordetarjeta {
+  display: flex;
+}
+
+.tarjeta {
+  margin: 10px;
+  background-color: rgba(78, 78, 90);
+  box-shadow: 5px 10px 5px gray;
+  border-radius: 10px;
+}
+
+.TituloTarjeta {
+  color: white;
+  margin: 10px;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.TituloPagina {
+  display: flex;
+  justify-content: center;
+}
