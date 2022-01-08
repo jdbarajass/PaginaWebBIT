@@ -38,7 +38,7 @@ const Index = () => {
             <li class="tarjeta">
               <div class="ContenedorImagen">
                 <Link to="/Pagina1">
-                  <img src={Eren} alt="Whitesnake" />
+                  <img src="" alt="Whitesnake" />
                 </Link>
               </div>
               <span class="TituloTarjeta"> Galeria De Whitesnake </span>
