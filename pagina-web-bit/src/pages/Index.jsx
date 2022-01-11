@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../media/logo.png";
-import Eren from "../media/eren.jpg";
+//import Eren from "../media/eren.jpg";
 
 const Index = () => {
   return (
